@@ -1,5 +1,5 @@
 # Community Software Analysis Proposal
-Please edit this file and push to your repository.
+In cooperation with Christina Wang
 
 ## Software: Gridap.jl
 
