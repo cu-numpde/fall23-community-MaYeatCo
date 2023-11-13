@@ -1,29 +1,28 @@
 # Community Software Analysis Proposal
-Please edit this file and push to your repository.
+In cooperation with Christina Wang
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: Gridap.jl
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+Gridap is a set of tools written in Julia. It allows a user to get an approximate solution to a PDE under various conditions such as unusual domains, multi-fields etc. It employs finite element methods. One of the prominent features is the ability to set up equations as they appear mathematically. This seems to reduce the number of code lines. The audience appears to be researchers who are familiar with mathematical frameworks (e.g. weak-form solutions) and need to solve their problems under above mentioned restrictions.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2022-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/gridap/Gridap.jl  |
+| Main/documentation website | https://gridap.github.io/Gridap.jl/stable/   |
+| Year project was started | 2019  |
+| Number of contributors in the past year | 10 (since Jan 2023) |
+| Number of contributors in the lifetime of the project |  30(31) |
+| Number of distinct affiliations | Not sure yet |
+| Where do development discussions take place? |Gitter https://app.gitter.im/#/room/#Gridap-jl_community:gitter.im|
+| Typical number of emails/comments per week? | 1-3 on Gitter  |
+| Typical number of commits per week? | lately around 5 |
+| Typical commit size | Not sure |
+| How does the project accept contributions? | Pull requests and gitter   |
+| Does the project have an automated test suite? | Not sure |
+| Does the project use continuous integration? | Yes |
+| Are any legal/licensing steps required to contribute? | MIT license |
 
 ### Install and run
 
@@ -37,12 +36,7 @@ encountered a problem.
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+As for now, based on their tutorial pages, GRIDAP is the most appropriate for single Poisson-like equations. We are not yet sure which PDE could be appropriate to test on. For pull requests, the content must follow the provided format. There are a lot of issues and help needed (at the same time, those seem to be advanced), so we are not yet sure if anything will run smoothly.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
